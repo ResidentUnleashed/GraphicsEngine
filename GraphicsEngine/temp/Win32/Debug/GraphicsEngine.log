@@ -1,0 +1,5 @@
+﻿LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+GraphicsEngine.obj : error LNK2019: unresolved external symbol _ogl_LoadFunctions referenced in function _main
+GraphicsEngine.obj : error LNK2019: unresolved external symbol _ogl_GetMinorVersion referenced in function _main
+GraphicsEngine.obj : error LNK2019: unresolved external symbol _ogl_GetMajorVersion referenced in function _main
+C:\Users\s171021\Desktop\Engine\trunk\GraphicsEngine\Debug\GraphicsEngine.exe : fatal error LNK1120: 3 unresolved externals
