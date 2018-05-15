@@ -1,4 +1,4 @@
-﻿  Application.cpp
+﻿  GraphicsEngine.cpp
 c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec2.hpp(45): warning C4201: nonstandard extension used: nameless struct/union
   c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec2.hpp(205): note: see reference to class template instantiation 'glm::vec<2,T,P>' being compiled
 c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec2.hpp(46): warning C4201: nonstandard extension used: nameless struct/union
@@ -37,6 +37,47 @@ c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bi
 c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(188): warning C4310: cast truncates constant value
 c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\quaternion.hpp(55): warning C4201: nonstandard extension used: nameless struct/union
   c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\quaternion.hpp(130): note: see reference to class template instantiation 'glm::tquat<T,P>' being compiled
-c:\users\s171021\desktop\engine\trunk\graphicsengine\application.cpp(97): warning C4715: 'Application::createWindow': not all control paths return a value
+  Application.cpp
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec2.hpp(45): warning C4201: nonstandard extension used: nameless struct/union
+  c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec2.hpp(205): note: see reference to class template instantiation 'glm::vec<2,T,P>' being compiled
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec2.hpp(46): warning C4201: nonstandard extension used: nameless struct/union
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec2.hpp(47): warning C4201: nonstandard extension used: nameless struct/union
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec3.hpp(45): warning C4201: nonstandard extension used: nameless struct/union
+  c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec3.hpp(226): note: see reference to class template instantiation 'glm::vec<3,T,P>' being compiled
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec3.hpp(46): warning C4201: nonstandard extension used: nameless struct/union
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec3.hpp(47): warning C4201: nonstandard extension used: nameless struct/union
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec4.hpp(45): warning C4201: nonstandard extension used: nameless struct/union
+  c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec4.hpp(271): note: see reference to class template instantiation 'glm::vec<4,T,P>' being compiled
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec4.hpp(46): warning C4201: nonstandard extension used: nameless struct/union
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\detail\type_vec4.hpp(47): warning C4201: nonstandard extension used: nameless struct/union
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(88): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(89): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(90): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(92): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(93): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(94): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(96): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(97): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(98): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(100): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(101): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(102): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(175): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(176): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(177): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(178): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(180): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(181): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(182): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(183): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(185): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(186): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(187): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\bitfield.inl(188): warning C4310: cast truncates constant value
+c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\quaternion.hpp(55): warning C4201: nonstandard extension used: nameless struct/union
+  c:\users\s171021\desktop\engine\trunk\graphicsengine\dependencies\glm\glm\gtc\quaternion.hpp(130): note: see reference to class template instantiation 'glm::tquat<T,P>' being compiled
+c:\users\s171021\desktop\engine\trunk\graphicsengine\application.cpp(9): warning C4100: 'configFilePath': unreferenced formal parameter
+c:\users\s171021\desktop\engine\trunk\graphicsengine\application.cpp(38): warning C4305: 'return': truncation from 'int' to 'bool'
+  Generating Code...
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   GraphicsEngine.vcxproj -> C:\Users\s171021\Desktop\Engine\trunk\GraphicsEngine\x64\Debug\GraphicsEngine.exe
