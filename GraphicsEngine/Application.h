@@ -2,10 +2,15 @@
 #include <gl_core_4_4.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
-#include <glm/glm.hpp>
-#include <glm/ext.hpp>
 #include <string>
 #include <chrono>
+
+#pragma warning( push )
+#pragma warning( disable : 4201 )
+#pragma warning( disable : 4310 )
+#include <glm/glm.hpp>
+#include <glm/ext.hpp>
+#pragma warning ( pop )
 
 class Application
 {
@@ -37,7 +42,7 @@ public:
 
 	//Getters
 	GLFWwindow* getWindow() { return m_window; }
-	int getWidth() { return m_windowWidth; }
+	int getWindowWidth() { return m_windowWidth; }
 	int getWindowHeight() { return m_windowHeight; }
 	bool getFullScreen() { return m_isFullScreen; }
 	bool getIsRunning() { return m_isRunning; }

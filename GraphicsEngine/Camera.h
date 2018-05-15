@@ -2,8 +2,13 @@
 #include <gl_core_4_4.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
+
+#pragma warning( push )
+#pragma warning( disable : 4201 )
+#pragma warning( disable : 4310 )
 #include <glm/glm.hpp>
 #include <glm/ext.hpp>
+#pragma warning ( pop )
 
 class Camera
 {
@@ -27,6 +32,7 @@ public:
 
 	virtual void update(struct GLFWwindow* window, float deltaTime) {}
 
+	void SetHasSetProjectionMatrix(bool value);
 
 private:
 	glm::mat4 m_worldTransform = glm::mat4(1);

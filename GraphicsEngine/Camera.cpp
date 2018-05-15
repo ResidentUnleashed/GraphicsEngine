@@ -32,3 +32,8 @@ void Camera::SetProjectionMatrix(glm::mat4 value)
 	m_projectionMatrix = value;
 
 }
+
+void Camera::SetHasSetProjectionMatrix(bool value)
+{
+	m_hasSetProjectionMatrix = value;
+}
