@@ -80,7 +80,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IntDir>$(SolutionDir)temp\$(Platform)\$(Configuration)\</IntDir>
     <LibraryPath>$(SolutionDir)Dependencies\glfw\lib-vc2017\x64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
-    <IncludePath>$(SolutionDir)Dependencies\glm;$(SolutionDir)Dependencies\glfw\include;$(VC_IncludePath);$(SolutionDir)Dependencies\AIE;$(SolutionDir)Dependencies\GlCore;$(WindowsSDK_IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)Dependencies\stb;$(SolutionDir)Dependencies\glm;$(SolutionDir)Dependencies\glfw\include;$(VC_IncludePath);$(SolutionDir)Dependencies\AIE;$(SolutionDir)Dependencies\GlCore;$(WindowsSDK_IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -92,7 +92,7 @@
     <LinkIncremental>false</LinkIncremental>
     <IntDir>$(SolutionDir)temp\$(Platform)\$(Configuration)\</IntDir>
     <LibraryPath>$(SolutionDir)Dependencies\glfw\lib-vc2017\x64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
-    <IncludePath>$(SolutionDir)Dependencies\glm;$(SolutionDir)Dependencies\glfw\include;$(VC_IncludePath);$(SolutionDir)Dependencies\AIE;$(SolutionDir)Dependencies\GlCore;$(WindowsSDK_IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)Dependencies\stb;$(SolutionDir)Dependencies\glm;$(SolutionDir)Dependencies\glfw\include;$(VC_IncludePath);$(SolutionDir)Dependencies\AIE;$(SolutionDir)Dependencies\GlCore;$(WindowsSDK_IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -175,6 +175,7 @@
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="Dependencies\AIE\Gizmos.cpp" />
     <ClCompile Include="Dependencies\AIE\Shader.cpp" />
+    <ClCompile Include="Dependencies\AIE\Texture.cpp" />
     <ClCompile Include="Dependencies\GlCore\gl_core_4_4.c" />
     <ClCompile Include="GraphicsEngine.cpp" />
     <ClCompile Include="Mesh.cpp" />
