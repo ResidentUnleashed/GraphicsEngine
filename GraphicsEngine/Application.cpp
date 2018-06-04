@@ -81,9 +81,9 @@ void Application::gameLoop()
 	
         m_previousFrameTime = now;
 
-		////Elapsed time is equal to current time - start time
-		//auto elapsedTime = now - m_applicationStartTime;
-		//m_elapsedTime = std::chrono::duration<float>(elapsedTime).count;
+		//Elapsed time is equal to current time - start time
+		auto elapsedTime = now - m_applicationStartTime;
+		m_elapsedTime = std::chrono::duration<float>(elapsedTime).count();
 
 		//Update and render
 		update();
